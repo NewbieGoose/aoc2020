@@ -4,8 +4,8 @@ def find_seat_id(desc):
     seat = desc.replace('F','0').replace('B','1').replace('L','0').replace('R','1')
     return int(seat, base=2)
 
-MAX = 1
-FIND_SEAT = 2
+MAX = 'max'
+FIND_SEAT = 'seat'
 
 if __name__ == "__main__":
     FILENAME = 'input.txt'
